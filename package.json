@@ -1,8 +1,13 @@
 {
   "name": "magic-address",
   "description": "Autofill address form fields based in a given CEP number.",
-  "keywords": ["address", "cep", "autocomplete", "browser"],
-  "version": "1.0.1",
+  "keywords": [
+    "address",
+    "cep",
+    "autocomplete",
+    "browser"
+  ],
+  "version": "1.0.2",
   "author": "Henrique Silverio",
   "license": "MIT",
   "main": "dist/magic-address.min.js",
