@@ -1,0 +1,12 @@
+{
+  "requireCamelCaseOrUpperCaseIdentifiers" : true,
+  "requireParenthesesAroundIIFE"           : true,
+  "validateIndentation"                    : 2,
+  "maximumLineLength"                      : 120,
+  "requireCapitalizedConstructors"         : true,
+  "disallowEmptyBlocks"                    : true,
+  "validateQuoteMarks"                     : "'",
+  "disallowTrailingWhitespace"             : true,
+  "requireCurlyBraces"                     : true,
+  "requireSemicolons"                      : true
+}

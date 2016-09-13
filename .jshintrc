@@ -1,0 +1,26 @@
+{
+  "globals": {
+    "require" : true,
+    "module"  : true,
+    "exports" : true
+  },
+
+  "bitwise"       : true,
+  "curly"         : true,
+  "eqeqeq"        : true,
+  "forin"         : true,
+  "latedef"       : true,
+  "maxcomplexity" : 5,
+  "maxdepth"      : 3,
+  "maxparams"     : 3,
+  "noarg"         : true,
+  "nonew"         : true,
+  "singleGroups"  : true,
+  "undef"         : true,
+  "unused"        : true,
+
+  "esnext" : true,
+
+  "browser" : true,
+  "devel"   : true
+}

@@ -1,0 +1,27 @@
+{
+  "name": "magic-address",
+  "description": "Autofill address form fields based in a given CEP number.",
+  "version": "1.0.0",
+  "author": "Henrique Silverio",
+  "license": "MIT",
+  "main": "dist/magic-address.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HenriqueSilverio/magic-address.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HenriqueSilverio/magic-address/issues"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "babelify": "^7.3.0",
+    "es6-promise": "^3.2.1",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jscs": "^3.0.1",
+    "object-assign": "^4.1.0"
+  }
+}
