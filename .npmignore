@@ -1,1 +1,6 @@
-!(dist|package.json|README.md)
+*
+
+!dist/
+!dist/*
+!README.md
+!package.json

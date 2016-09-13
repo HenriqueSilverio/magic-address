@@ -16,7 +16,15 @@ import { default as MagicAddress } from 'address';
 MagicAddress.start();
 ```
 
-Or in old school global reference for non ES6 environments:
+CommonJS environment:
+
+```javascript
+var MagicAddress = require('magic-address').default;
+
+MagicAddress.start();
+```
+
+Or in old school global reference for non ES6 / CommonJS environments:
 
 ```javascript
 var MagicAddress = MagicAddress.default;
