@@ -1,5 +1,6 @@
 module.exports = function(grunt) {
   grunt.initConfig({
+    package: grunt.file.readJSON('package.json'),
     browserify: {
       dist: {
         files: {
@@ -44,6 +45,12 @@ module.exports = function(grunt) {
       }
     },
     uglify: {
+      options: {
+        banner: '/*! \n' +
+                ' * <%= package.name %> - v<%= package.version %> \n' +
+                ' * <%= package.homepage %> \n' +
+                ' */ \n'
+      },
       dist: {
         files: {
           'dist/magic-address.min.js': ['dist/magic-address.js']

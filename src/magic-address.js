@@ -12,7 +12,7 @@ es6Promise.polyfill();
 /**
  * Defines module object.
  */
-const Address = {
+const MagicAddress = {
 
   /**
    * Set some default settings.
@@ -155,5 +155,13 @@ const Address = {
 
 /**
  * Exports module.
+ *
+ * Here, in a perfect world, we normally use:
+ *
+ * `export default MagicAddress;`
+ *
+ * But for now, we use the CommonJS sintax.
+ *
+ * @see https://github.com/babel/babelify/issues/139
  */
-export default Address;
+module.exports = MagicAddress;

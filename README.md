@@ -4,14 +4,18 @@ Autofill address form fields based in a given [CEP](https://en.wikipedia.org/wik
 
 ## Installation
 
-Install **MagicAddress** in your project with: `npm i -D magic-address` or manually grab a copy of `magic-address.js` or `magic-address.min.js` in `dist` folder.
+Install **MagicAddress** in your project with:
+
+`npm i -S magic-address`
+
+Or manually grab a copy of `magic-address.js` or `magic-address.min.js` in `dist` folder.
 
 ## Usage
 
 ES6 environment:
 
 ```javascript
-import { default as MagicAddress } from 'address';
+import MagicAddress from 'magic-address';
 
 MagicAddress.start();
 ```
@@ -19,7 +23,7 @@ MagicAddress.start();
 CommonJS environment:
 
 ```javascript
-var MagicAddress = require('magic-address').default;
+var MagicAddress = require('magic-address');
 
 MagicAddress.start();
 ```
@@ -27,8 +31,6 @@ MagicAddress.start();
 Or in old school global reference for non ES6 / CommonJS environments:
 
 ```javascript
-var MagicAddress = MagicAddress.default;
-
 MagicAddress.start();
 ```
 
@@ -46,3 +48,21 @@ MagicAddress.start({
   }
 });
 ```
+
+## To-Do
+
+* Beautify Demo Page.
+
+## Changelog
+
+### 1.0.3 - 09/13/2016
+
+* Adjust the module export method. No more `.default` when importing the module.
+
+### 1.0.2 - 09/13/2016
+
+* Add keywords in `package.json`.
+
+### 1.0.0 - 09/13/2016
+
+* Initial release
