@@ -1,5 +1,7 @@
 ## Magic Address
 
+See a [live demo](https://henriquesilverio.github.io/magic-address) here.
+
 Autofill address form fields based in a given [CEP](https://en.wikipedia.org/wiki/C%C3%B3digo_de_Endere%C3%A7amento_Postal) number, using the [Postmon](http://postmon.com.br) API.
 
 ## Installation
@@ -48,10 +50,6 @@ MagicAddress.start({
   }
 });
 ```
-
-## To-Do
-
-* Beautify Demo Page.
 
 ## Changelog
 
