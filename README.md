@@ -53,6 +53,12 @@ MagicAddress.start({
 
 ## Changelog
 
+### 1.0.4 - 10/06/2016
+
+* Add live demo.
+* Update es6-promise polyfill.
+* Use https to call the CEP API.
+
 ### 1.0.3 - 09/13/2016
 
 * Adjust the module export method. No more `.default` when importing the module.
