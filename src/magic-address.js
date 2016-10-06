@@ -18,7 +18,7 @@ const MagicAddress = {
    * Set some default settings.
    */
   DEFAULTS: {
-    'API' : 'http://api.postmon.com.br/v1/cep',
+    'API' : 'https://api.postmon.com.br/v1/cep',
     'selectors' : {
       'inputCEP'          : '.js-input-cep',
       'inputAddress'      : '.js-input-address',
