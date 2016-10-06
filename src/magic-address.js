@@ -1,13 +1,13 @@
 /**
  * Import needed polyfills.
  */
-import * as es6Promise from 'es6-promise';
-import { default as assign } from 'object-assign';
+import Promise from 'es6-promise';
+import assign  from 'object-assign';
 
 /**
  * Applies Promise polyfill to the global environment.
  */
-es6Promise.polyfill();
+Promise.polyfill();
 
 /**
  * Defines module object.
