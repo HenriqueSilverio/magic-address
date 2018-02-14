@@ -53,6 +53,12 @@ MagicAddress.start({
 
 ## Changelog
 
+### 1.1.0 - 14/02/2018
+
+* Old stuff like Grunt, Browserify, JSHint, JSCS were replaced in favor of Webpack, JSLint and NPM Scripts.
+* Added a `LICENSE.txt` file, to follow proper licensing guidelines.
+* Removed unnecessary `demo` directory in project root.
+
 ### 1.0.4 - 10/06/2016
 
 * Add live demo.
