@@ -1,5 +1,14 @@
-const path = require('path');
+const path           = require('path');
+const webpack        = require('webpack');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const pkg            = require('./package.json');
+
+const banner = `
+/*!
+ * ${pkg.name} - ${pkg.version}
+ * ${pkg.homepage}
+ */
+`.trim();
 
 const config = {
   entry: {
@@ -36,6 +45,10 @@ const config = {
   plugins: [
     new UglifyJsPlugin({
       include: /\.min\.js$/
+    }),
+    new webpack.BannerPlugin({
+      raw: true,
+      banner: banner
     })
   ]
 };
