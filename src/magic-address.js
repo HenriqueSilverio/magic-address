@@ -155,13 +155,5 @@ const MagicAddress = {
 
 /**
  * Exports module.
- *
- * Here, in a perfect world, we normally use:
- *
- * `export default MagicAddress;`
- *
- * But for now, we use the CommonJS sintax.
- *
- * @see https://github.com/babel/babelify/issues/139
  */
-module.exports = MagicAddress;
+export default MagicAddress;
