@@ -33,6 +33,8 @@
   },
   "scripts": {
     "start": "webpack --watch --colors --progress --profile",
-    "build": "webpack"
+    "build": "webpack",
+    "version": "npm run build && git add -A dist",
+    "postversion": "git push && git push --tags"
   }
 }
