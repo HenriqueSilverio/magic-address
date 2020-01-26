@@ -1,15 +1,4 @@
 /**
- * Import needed polyfills.
- */
-import Promise from 'es6-promise';
-import assign  from 'object-assign';
-
-/**
- * Applies Promise polyfill to the global environment.
- */
-Promise.polyfill();
-
-/**
  * Defines module object.
  */
 const MagicAddress = {

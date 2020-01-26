@@ -20,21 +20,11 @@
     "url": "https://github.com/HenriqueSilverio/magic-address/issues"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.40",
-    "@babel/preset-env": "^7.0.0-beta.40",
-    "babel-loader": "^8.0.0-beta.0",
-    "es6-promise": "^4.0.5",
-    "eslint": "^4.17.0",
-    "eslint-config-esnext": "^2.0.0",
-    "eslint-loader": "^1.9.0",
-    "object-assign": "^4.1.0",
-    "uglifyjs-webpack-plugin": "^1.1.8",
-    "webpack": "^3.11.0"
+    "parcel-bundler": "^1.12.4"
   },
   "scripts": {
-    "start": "webpack --watch --colors --progress --profile",
-    "build": "webpack",
+    "build": "parcel build src/magic-address.js --no-cache --out-file magic-address.min.js",
     "version": "npm run build && git add -A dist",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push --follow-tags"
   }
 }
