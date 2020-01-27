@@ -17,23 +17,23 @@ Or manually grab a copy of `magic-address.js` or `magic-address.min.js` in `dist
 ES6 environment:
 
 ```javascript
-import MagicAddress from "magic-address";
+import MagicAddress from 'magic-address'
 
-MagicAddress.start();
+MagicAddress.start()
 ```
 
 CommonJS environment:
 
 ```javascript
-var MagicAddress = require("magic-address");
+var MagicAddress = require('magic-address')
 
-MagicAddress.start();
+MagicAddress.start()
 ```
 
 Or in old school global reference for non ES6 / CommonJS environments:
 
 ```javascript
-MagicAddress.start();
+MagicAddress.start()
 ```
 
 You can pass options to `.start()` method as well:
@@ -41,14 +41,14 @@ You can pass options to `.start()` method as well:
 ```javascript
 MagicAddress.start({
   selectors: {
-    inputCEP: ".custom-cep-selector",
-    inputAddress: ".custom-address-selector",
-    inputNumber: ".custom-number-selector",
-    inputNeighborhood: ".custom-neighborhood-selector",
-    inputCity: ".custom-city-selector",
-    inputState: ".custom-state-selector"
+    inputCEP: '.custom-cep-selector',
+    inputAddress: '.custom-address-selector',
+    inputNumber: '.custom-number-selector',
+    inputNeighborhood: '.custom-neighborhood-selector',
+    inputCity: '.custom-city-selector',
+    inputState: '.custom-state-selector'
   }
-});
+})
 ```
 
 ## Changelog
