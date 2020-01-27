@@ -20,12 +20,11 @@
     "url": "https://github.com/HenriqueSilverio/magic-address/issues"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.3",
-    "babel-plugin-add-module-exports": "^1.0.2",
-    "parcel-bundler": "^1.12.4"
+    "rollup": "^1.30.0",
+    "rollup-plugin-terser": "^5.2.0"
   },
   "scripts": {
-    "build": "parcel build src/magic-address.js --no-cache --global MagicAddress --out-file magic-address.min.js",
+    "build": "rollup -c",
     "version": "npm run build && git add -A dist",
     "postversion": "git push --follow-tags"
   }
