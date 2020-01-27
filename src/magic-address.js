@@ -1,15 +1,4 @@
 /**
- * Import needed polyfills.
- */
-import Promise from 'es6-promise';
-import assign  from 'object-assign';
-
-/**
- * Applies Promise polyfill to the global environment.
- */
-Promise.polyfill();
-
-/**
  * Defines module object.
  */
 const MagicAddress = {
@@ -34,7 +23,7 @@ const MagicAddress = {
    * @param object options Custom user options
    */
   start(options = {}) {
-    this.settings = assign({}, this.DEFAULTS, options);
+    this.settings = Object.assign({}, this.DEFAULTS, options);
 
     this._setupElements()
         ._bindEvents();
