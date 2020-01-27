@@ -23,7 +23,7 @@ const MagicAddress = {
    * @param object options Custom user options
    */
   start(options = {}) {
-    this.settings = assign({}, this.DEFAULTS, options);
+    this.settings = Object.assign({}, this.DEFAULTS, options);
 
     this._setupElements()
         ._bindEvents();
