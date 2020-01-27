@@ -11,7 +11,7 @@
   "homepage": "https://github.com/HenriqueSilverio/magic-address",
   "author": "Henrique Silverio",
   "license": "MIT",
-  "main": "src/magic-address.js",
+  "main": "./dist/magic-address.min.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/HenriqueSilverio/magic-address.git"
